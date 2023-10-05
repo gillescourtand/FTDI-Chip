@@ -5,3 +5,4 @@ Our xenopusProject software requires synchronization between the camera recordin
 
 We use an FTDI chip (model FT232R usb to uart) to send a trigger signal to the amplifier to start recording the experiment at spike2
 
+![Cover](https://github.com/gillescourtand/FTDI-Chip/blob/main/img/FT232RL-USB-TO-TTL-Converter-Dimensions.jpg)
