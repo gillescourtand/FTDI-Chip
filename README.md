@@ -8,10 +8,11 @@ We use an FTDI chip (model FT232R usb to uart) to send a trigger signal to the a
 ![Cover](https://github.com/gillescourtand/FTDI-Chip/blob/main/img/FT232RL-USB-TO-TTL-Converter-Dimensions.jpg)
 
 python code :
-'''
+
+```
 #ftdi (trigger)
 from pylibftdi import BitBangDevice, Driver
-```
+...
 def get_ftdi_device_list():
     """
     return a list of lines, each a colon-separated
