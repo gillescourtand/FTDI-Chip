@@ -11,7 +11,7 @@ python code :
 '''
 #ftdi (trigger)
 from pylibftdi import BitBangDevice, Driver
-...
+```
 def get_ftdi_device_list():
     """
     return a list of lines, each a colon-separated
@@ -51,5 +51,5 @@ def trigger():
     except IOError as e :
         print(e)
         QtWidgets.QMessageBox.warning(None,"Error",str(e))
-'''
+```
 
