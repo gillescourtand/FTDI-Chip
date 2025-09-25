@@ -7,7 +7,12 @@ We use an FTDI chip (model FT232R usb to uart) to send a trigger signal to the a
 
 ![Cover](https://github.com/gillescourtand/FTDI-Chip/blob/main/img/FT232RL-USB-TO-TTL-Converter-Dimensions.jpg)
 
-python code :
+
+## Installation
+[official page](https://ftdichip.com/drivers/)
+FT4232R requires the D2XX drivers : release CDM2123620
+
+## Python code
 
 ```
 #ftdi (trigger)
